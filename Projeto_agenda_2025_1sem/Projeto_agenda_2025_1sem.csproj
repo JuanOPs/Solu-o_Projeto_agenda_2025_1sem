@@ -46,15 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCadastroPessoa.cs">
+    <Compile Include="Dados\DataSet_Agenda.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\frmCadastroPessoa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroPessoa.Designer.cs">
+    <Compile Include="Formulários\frmCadastroPessoa.Designer.cs">
       <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCadastroPessoa.resx">
+    <EmbeddedResource Include="Formulários\frmCadastroPessoa.resx">
       <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -66,6 +71,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Dados\DataSet_Agenda.xsc">
+      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    </None>
+    <None Include="Dados\DataSet_Agenda.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Agenda.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dados\DataSet_Agenda.xss">
+      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
