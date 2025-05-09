@@ -46,5 +46,14 @@ namespace Projeto_agenda_2025_1sem
         {
 
         }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Confirma Exclusão?","Excluindo registro...",MessageBoxButtons.YesNo,MessageBoxIcon.Question,MessageBoxDefaultButton.Button2)==DialogResult.Yes)
+            {
+                pessoaBindingSource.RemoveCurrent();
+                this.tableAdapterManager.UpdateAll(this.dataSet_Agenda);
+            }
+        }
     }
 }
