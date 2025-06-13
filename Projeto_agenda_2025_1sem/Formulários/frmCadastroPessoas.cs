@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_agenda_2025_1sem
 {
-    public partial class frmCadastroPessoa : Form
+    public partial class frmCadastroPessoas : Form
     {
-        public frmCadastroPessoa()
+        public frmCadastroPessoas()
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace Projeto_agenda_2025_1sem
         private void frmCadastroPessoa_Load(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'dataSet_Agenda.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
-            this.pessoaTableAdapter.Fill(this.dataSet_Agenda.Pessoa);
+        
             // TODO: esta linha de código carrega dados na tabela 'dataSet_Agenda.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
             this.pessoaTableAdapter.Fill(this.dataSet_Agenda.Pessoa);
 

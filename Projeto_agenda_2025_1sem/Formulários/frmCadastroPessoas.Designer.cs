@@ -1,6 +1,6 @@
 ﻿namespace Projeto_agenda_2025_1sem
 {
-    partial class frmCadastroPessoa
+    partial class frmCadastroPessoas
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -36,7 +36,7 @@
             System.Windows.Forms.Label telefoneLabel;
             System.Windows.Forms.Label emailLabel;
             System.Windows.Forms.Label dataNascimentoLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroPessoa));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroPessoas));
             this.pessoaBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);

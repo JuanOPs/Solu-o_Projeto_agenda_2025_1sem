@@ -16,7 +16,7 @@ namespace Projeto_agenda_2025_1sem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCadastroPessoa());
+            Application.Run(new frmMenu());
         }
     }
 }

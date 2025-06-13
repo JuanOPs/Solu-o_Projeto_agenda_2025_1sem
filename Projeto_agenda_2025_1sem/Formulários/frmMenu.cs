@@ -19,7 +19,7 @@ namespace Projeto_agenda_2025_1sem
 
         private void pessoasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCadastroPessoa objCadPessoa = new frmCadastroPessoa();
+            frmCadastroPessoas objCadPessoa = new frmCadastroPessoas();
             objCadPessoa.MdiParent = this;
             objCadPessoa.Show();
         }

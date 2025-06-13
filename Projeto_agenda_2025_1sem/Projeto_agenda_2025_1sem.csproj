@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dados\DataSet_Agenda.cs">
+      <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dados\DataSet_Agenda.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet_Agenda.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Formulários\frmCadastroPessoa.cs">
+    <Compile Include="Formulários\frmCadastroPessoas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulários\frmCadastroPessoa.Designer.cs">
-      <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
+    <Compile Include="Formulários\frmCadastroPessoas.Designer.cs">
+      <DependentUpon>frmCadastroPessoas.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulários\frmMenu.cs">
       <SubType>Form</SubType>
@@ -65,8 +68,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formulários\frmCadastroPessoa.resx">
-      <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
+    <EmbeddedResource Include="Formulários\frmCadastroPessoas.resx">
+      <DependentUpon>frmCadastroPessoas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
