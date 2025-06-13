@@ -60,6 +60,12 @@
     <Compile Include="Formulários\frmCadastroPessoas.Designer.cs">
       <DependentUpon>frmCadastroPessoas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulários\frmConsultaPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\frmConsultaPessoa.Designer.cs">
+      <DependentUpon>frmConsultaPessoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulários\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formulários\frmCadastroPessoas.resx">
       <DependentUpon>frmCadastroPessoas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\frmConsultaPessoa.resx">
+      <DependentUpon>frmConsultaPessoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto_agenda_2025_1sem.Formulários;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,5 +29,13 @@ namespace Projeto_agenda_2025_1sem
         {
 
         }
+
+        private void pessoasFiltroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaPessoa objConPessoa = new frmConsultaPessoa();
+            objConPessoa.MdiParent = this;
+            objConPessoa.Show();
+        }
     }
+    
 }
