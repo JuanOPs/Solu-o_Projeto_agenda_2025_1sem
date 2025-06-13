@@ -17,7 +17,7 @@ namespace Projeto_agenda_2025_1sem
             InitializeComponent();
         }
 
-        private void frmCadastroPessoa_Load(object sender, EventArgs e)
+        private void frmCadastroPessoa_oad(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'dataSet_Agenda.Pessoa'. Você pode movê-la ou removê-la conforme necessário.
         
