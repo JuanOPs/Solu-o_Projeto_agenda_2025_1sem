@@ -36,6 +36,13 @@ namespace Projeto_agenda_2025_1sem
             objConPessoa.MdiParent = this;
             objConPessoa.Show();
         }
+
+        private void relatórioPessoasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVisualizaListaPessoas objVisualiza = new frmVisualizaListaPessoas();
+            objVisualiza.MdiParent = this;
+            objVisualiza.Show();
+        }
     }
     
 }
