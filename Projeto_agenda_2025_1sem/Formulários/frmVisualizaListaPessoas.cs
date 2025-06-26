@@ -16,5 +16,16 @@ namespace Projeto_agenda_2025_1sem.Formulários
         {
             InitializeComponent();
         }
+
+        private void frmVisualizaListaPessoas_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
